@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Video-app</title>
+</head>
+<body>
+    
+    <div class="meet">
+        <div class="screen-01">
+            <video autoplay src="" id="screen1"></video>
+            <div class="screen-02">
+                <video autoplay src="" id="screen2"></video>
+            </div>
+            <div class="controlls">
+                <button><i class="fa fa-phone"></i></button>
+                <button class="active" id="cambtn"><i class="fa fa-video-camera"></i></button>
+                <button class="active" id="micBtn"><i class="fa fa-microphone"></i></button>
+                <button id="shareScreenBtn"><i class="fa fa-laptop"></i></button>
+                <button><i class="fa fa-ellipsis-h"></i></button>
+            </div>
+        </div>
+
+        <div class="offer_mange">
+            <button id="create-offer">Create offer</button>
+            <textarea  id="offer-sdp" ></textarea>
+            <hr>
+            <button id="answer-offer">Answer offer</button>
+            <textarea id="answer-sdp"></textarea>
+            <hr>
+            <button id="add-answer">Add Answer</button>
+            <textarea id="add-asnwer-sdp"></textarea>
+            <hr>
+    
+        </div>
+
+    </div>
+
+    
+    
+    <script src="./app.js"></script>
+</body>
+</html>
